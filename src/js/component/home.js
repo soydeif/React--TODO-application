@@ -8,10 +8,11 @@ import { TodoList } from "./todoList";
 export function Home() {
 	return (
 		<>
-			<div className="Logo">
-				<p>TODO LIST</p>
-			</div>
 			<div id="container">
+				<div className="Logo">
+					<p>TODO LIST</p>
+				</div>
+
 				<TodoList />
 			</div>
 		</>

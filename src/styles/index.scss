@@ -14,16 +14,18 @@
 
 #container {
     width: 500px;
-   
+    
     margin: auto;
 }
 
 .Logo{
-    margin-left: 37%;
+   
     margin-top: 1%;
     width: 500px;
     height: 400px;
-    background: gray;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, rgb(0, 247, 255), rgb(53, 86, 235),rgb(0, 247, 255));
+    
 }
 
 p{
@@ -31,4 +33,18 @@ p{
     color: white;
     text-align: center;
     padding-top: 100px;
+}
+
+li{
+    background: linear-gradient(to right, white,  rgb(196, 240, 241));
+
+}
+
+#button-addon2{
+   float: right;
+   
+}
+
+.equis{
+    font-size: 35%;
 }
