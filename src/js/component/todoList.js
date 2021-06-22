@@ -3,7 +3,7 @@ import { Alert } from "bootstrap";
 
 // añadir tareas tanto con click como enter -* search google event onKeyPress *-
 // lograr que la barra elimine la ultima tarea del placeholder.
-
+//
 export function TodoList() {
 	const [task, setTask] = useState([]);
 	const [addList, setAddList] = useState("");
